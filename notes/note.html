@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	    <title>Note d'intention</title>
+	    <link rel="shortcut icon" href="../media/eye.ico" type="image/x-icon" />
+	    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+	    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+	</head>
+
+	<body>
+
+
+		<!-- Page content -->
+		<div class="note">
+			
+            <section  id="print">
+            	<h5>Note d'intention</h5>
+			</section>
+
+			<div id="print-btn"></div>
+			<button id="submit">Download PDF File</button>
+
+		</div>
+
+		<script type="text/javascript">
+			var doc = new jsPDF();
+			var specialElementHandlers = {
+			    '#print-btn': function (element, renderer) {
+			        return true;
+			    }
+			};
+
+			$('#submit').click(function () {
+			    doc.fromHTML($('#print').html(), 15, 15, {
+			        'width': 170,
+			            'elementHandlers': specialElementHandlers
+			    });
+			    doc.save('pdf-version.pdf');
+			});
+		</script>
+		
+
+
+
+
+	</body>
+</html>

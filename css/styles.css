@@ -153,6 +153,22 @@ h4{
   text-align: center;
 }
 
+#notelink{
+  font-family: 'Hanalei Fill', cursive;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+
+}
+
+#notelink:hover{
+  color: lime;
+  text-decoration: line-through;
+  box-shadow: 0 0 70px blue;
+}
+
 /* slime */
 
 #slime{
@@ -470,4 +486,29 @@ h3{
   border-top-color: #808080;
   background-color: #fff;    
 }
-  
+
+/* note d'intention */
+.note {
+  width: 100%;
+  overflow-x: hidden;
+  flex: 1;
+  background-image: url("../media/pink065.jpg");
+  height: 150vh;
+}
+
+/* fiches */
+
+.fiche {
+  width: 100%;
+  overflow-x: hidden;
+  flex: 1;
+  background-image: url("../media/drock003.jpg");
+  height: 150vh;
+}
+
+#bloodfeast{
+  font-family: 'Hanalei Fill', cursive;
+  color: lime;
+  font-size: 60px;
+  text-align: center;
+  }
