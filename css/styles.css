@@ -588,7 +588,29 @@ h3{
   color: lime;
 }
 
+#submit{
+  text-align: center;
+  border: 4px solid;
+  border-bottom-color: #444;
+  border-right-color: #444;
+  border-left-color: #a6a6a6;
+  border-top-color: #a6a6a6;
+  background-color: #bfbfbf;
+  height: 40px;
+  width: 130px;
+  margin: 10px 0 20px 0;
+}
 
+
+#submit a{
+  color: orangered;
+}
+
+#submit a:hover{
+  color: white;
+  cursor: pointer;
+
+}
 
 #notesprec{
   font-family: 'Hanalei Fill', cursive;
