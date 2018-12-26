@@ -217,6 +217,75 @@ h4{
   padding: 30px;
 }
 
+/* martial */
+
+#martial{
+    background-image: url("../media/ss004.jpg");
+    height: 150vh;
+}
+
+
+/* racing */
+
+#racing1{
+    background-image: url("../media/1_QHgbg6sxJKWNtExnDly1hA.gif");
+    height: 75vh;
+}
+
+#racing2{
+    background-image: url("../media/drock029.jpg");
+    height: 75vh;
+}
+
+.header6{
+  width: 100%;
+  height: 37px;
+  background-image: url("../media/checkered_3a.gif");
+}
+
+
+/* porn */
+
+#porn{
+    background-image: url("../media/cloth035.jpg");
+    height: 50vh;
+}
+
+/* peplum */
+
+#peplum{
+    background-image: url("../media/pep5.gif");
+    height: 100vh;
+}
+
+.header7{
+  width: 100%;
+  height: 35px;
+  margin-top: -16px;
+  background-image: url("../media/bar7.gif");
+}
+
+/* mondo */
+
+#mondo1{
+    background-image: url("../media/fern-tile-green.jpg");
+    height: 75vh;
+}
+
+#mondo2{
+    background-image: url("../media/gothic2.jpg");
+    height: 75vh;
+}
+
+/* gothic */
+
+#horror{
+    background-image: url("../media/gothic1.jpg");
+    height: 150vh;
+}
+
+
+
 /* under construction */
 
 #undercon{
@@ -492,8 +561,64 @@ h3{
   width: 100%;
   overflow-x: hidden;
   flex: 1;
-  background-image: url("../media/pink065.jpg");
-  height: 150vh;
+  background-image: url("../media/note2.gif");
+  height: auto;
+  color: white;
+  text-align: center;
+}
+
+.textnote{
+  margin: 50px;
+  background-image: url("../media/note1.jpg");
+}
+
+#print{
+  margin: 30px;
+  text-align: left;
+}
+
+.textnote h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+.textquote{
+  margin: 0 50px 30px 50px;
+  color: lime;
+}
+
+#submit{
+  text-align: center;
+  border: 4px solid;
+  border-bottom-color: #444;
+  border-right-color: #444;
+  border-left-color: #a6a6a6;
+  border-top-color: #a6a6a6;
+  background-color: #bfbfbf;
+  height: 40px;
+  width: 130px;
+  margin: 10px 0 20px 0;
+}
+
+
+#submit a{
+  color: orangered;
+}
+
+#submit a:hover{
+  color: white;
+  cursor: pointer;
+
+}
+
+#notesprec{
+  font-family: 'Hanalei Fill', cursive;
+  color: lime;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  
 }
 
 /* fiches */
