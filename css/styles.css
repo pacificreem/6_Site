@@ -556,6 +556,10 @@ h3{
   background-color: #fff;    
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 /* note d'intention */
 .note {
   width: 100%;
