@@ -173,7 +173,7 @@ h4{
 
 #slime{
     background-image: url("../media/funky_greenbg.jpg");
-    height: 100vh;
+    height: auto;
 }
 
 .header1{
@@ -181,6 +181,22 @@ h4{
   height: 54px;
   margin-top: -27px;
   background-image: url("../media/blueeye.gif");
+}
+
+#slime2{
+    background-image: url("../media/greenslime.jpg");
+    width: 800px;
+    height: 100vh;
+    margin-top: -40px;
+    
+}
+
+
+.slimevid{
+  border: 2px solid blueviolet;
+  box-shadow: 0 0 18px blueviolet;
+  width: 100%;
+  height: auto;
 }
 
 
