@@ -233,6 +233,12 @@ h4{
   padding: 30px;
 }
 
+.header8{
+  width: 100%;
+  height: 85px;
+  background-image: url("../media/space37.gif");
+}
+
 /* martial */
 
 #martial{
@@ -648,7 +654,16 @@ body.modal-open {
   overflow-x: hidden;
   flex: 1;
   background-image: url("../media/drock003.jpg");
-  height: 150vh;
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.fiche h1{
+  font-family: 'Hanalei Fill', cursive;
+  color: lime;
+  font-size: 50px;
+  text-align: center;
 }
 
 #bloodfeast{
@@ -656,4 +671,24 @@ body.modal-open {
   color: lime;
   font-size: 60px;
   text-align: center;
-  }
+}
+
+.textfiche {
+  margin: 50px;
+  height: auto;
+  color: white;
+  text-align: left;
+}
+
+.indice:hover{
+  cursor: pointer;
+}
+
+.indicenote{
+  color:lime;
+  display: none;
+}
+
+.indice:hover ~ .indicenote {
+  display: inline;
+}
