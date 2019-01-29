@@ -670,6 +670,18 @@ body.modal-open {
   text-align: left;
 }
 
+.textfiche h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.textfiche span{
+  color: lime;
+}
+
 .indice:hover{
   cursor: pointer;
 }
@@ -687,10 +699,8 @@ body.modal-open {
   width: 100%;
   overflow-x: hidden;
   flex: 1;
-  background-image: url("../media/pink065.jpg");
+  background-image: url("../media/drock001.jpg");
   height: auto;
-  text-align: center;
-  align-items: center;
 }
 
 .fichebiblio h1{
