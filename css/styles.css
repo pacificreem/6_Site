@@ -230,11 +230,16 @@ h4{
   background-image: url("../media/space37.gif");
 }
 
+/* fantasy */
+
+#fantasy{
+    background-image: url("../media/fanta.jpg");
+}
+
 /* martial */
 
-#martial{
+#asiansky{
     background-image: url("../media/ss004.jpg");
-    height: 150vh;
 }
 
 
@@ -497,6 +502,13 @@ h3{
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*non-flexible content*/
+
+.container {
+  display: flex;
   justify-content: center;
 }
 
