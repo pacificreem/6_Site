@@ -3,6 +3,7 @@ body{
   width: 100%;
   display: flex;
   font-family: "Times New Roman", Times, serif;
+  background-color: black;
 }
 
 /* scrollbar */
@@ -145,6 +146,8 @@ section{
   width: 550px;
 }
 
+
+
 h4{
   color: red;
   font-size: 28px;
@@ -247,12 +250,11 @@ h4{
 
 #racing1{
     background-image: url("../media/1_QHgbg6sxJKWNtExnDly1hA.gif");
-    height: 75vh;
+    
 }
 
 #racing2{
     background-image: url("../media/drock029.jpg");
-    height: 75vh;
 }
 
 .header6{
@@ -720,4 +722,124 @@ body.modal-open {
   color: lime;
   font-size: 50px;
   text-align: center;
+}
+
+/*media player*/
+
+#musicroom{
+    background-image: url("../media/1.jpg");
+}
+
+.titre2{
+  width: 450px;
+  margin: 25px;
+}
+
+#mediaback{
+  position: absolute;
+  z-index: 1;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: 14px;
+ }
+
+#player{
+  position: absolute;
+  margin-left: -200px;
+  margin-top: 20px;
+  z-index: 2;
+ }
+
+ /*#volume{
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 20px;
+  z-index: 3;
+ }*/
+
+#mediamarquee {
+  position: absolute;
+  top: 423px;
+  z-index: 3;
+  width: 160px;
+  margin-left: -85px;
+  font-family: 'VT323', monospace;
+  font-size: 12px;
+}
+
+#mediabutton{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  top: 460px;
+  margin-left: -143px;
+  outline: none;
+}
+
+#mediabutton:hover{
+  cursor: pointer;
+}
+
+#back{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  top: 470px;
+  margin-left: -53px;
+}
+
+#back:hover{
+  cursor: pointer;
+}
+
+#back:active{
+  opacity: 1;
+}
+
+#next{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  top: 469px;
+  margin-left: -1px;
+}
+
+#next:hover{
+  cursor: pointer;
+}
+
+#next:active{
+  opacity: 1;
+}
+
+#minus{
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+  top: 426px;
+  margin-left: 150px;
+}
+
+#minus:hover{
+  cursor: pointer;
+}
+
+#minus:active{
+  opacity: 1;
+}
+
+#plus{
+  position: absolute;
+  opacity: 0;
+  z-index: 3;
+  top: 426px;
+  margin-left: 48px;
+}
+
+#plus:hover{
+  cursor: pointer;
+}
+
+#plus:active{
+  opacity: 1;
 }
