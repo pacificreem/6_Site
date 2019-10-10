@@ -42,7 +42,8 @@ var playlist = new Array("Isaac Hayes - Theme from Shaft - 1971",
 	"Kitra Williams & Tommy Wiseau - You're My Rose (The Room) - 2003",
 	"Stelvio Cipriani - Mary's Theme - 1969",
 	"Piero Umiliani - Le Isole Dell'amore - 1970",
-	"Asei Kobayashi - A Letter in the Past (Hausu) - 1977");
+	"Asei Kobayashi - A Letter in the Past (Hausu) - 1977",
+	"ADVERTISEMENT --- Spermula - Bande annonce France - 1976");
 var currentSong = 0;
 var isplaying = false;
 var tracklist = new Array ('1', '2', '3', '4', '5', '6', '7', '8');
