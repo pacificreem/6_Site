@@ -46,7 +46,7 @@ var playlist = new Array("Isaac Hayes - Theme from Shaft - 1971",
 	"ADVERTISEMENT --- Spermula - Bande annonce France - 1976");
 var currentSong = 0;
 var isplaying = false;
-var tracklist = new Array ('1', '2', '3', '4', '5', '6', '7', '8');
+var tracklist = new Array ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11');
 
 window.onload=function(){
 	var player = document.getElementById("player");
