@@ -139,20 +139,20 @@ section{
 
 .welcome{
   width: 350px;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 .titre{
-  width: 550px;
+  width: 600px;
+  margin-top: -40px;
 }
-
 
 
 h4{
   color: red;
   font-size: 28px;
   line-height: 28px;
-  margin-top: -30px;
   text-align: center;
 }
 
@@ -193,6 +193,135 @@ h4{
   height: auto;
 }
 
+.bottombar{
+  margin-bottom: -2.5%;
+  z-index: 2;
+}
+
+/*media player*/
+
+#musicroom{
+    background-image: url("../media/1.jpg");
+}
+
+.titre2{
+  width: 450px;
+  margin: 25px;
+}
+
+#widget{
+  padding-bottom: 430px;
+}
+
+#mediaback{
+  position: absolute;
+  z-index: 1;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: 14px;
+ }
+
+#player{
+  position: absolute;
+  margin-left: -200px;
+  margin-top: 20px;
+  z-index: 2;
+ }
+
+ /*#volume{
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 20px;
+  z-index: 3;
+ }*/
+
+#mediamarquee {
+  position: absolute;
+  top: 423px;
+  z-index: 3;
+  width: 160px;
+  margin-left: -85px;
+  font-family: 'VT323', monospace;
+  font-size: 12px;
+}
+
+#mediabutton{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  top: 460px;
+  margin-left: -143px;
+  outline: none;
+}
+
+#mediabutton:hover{
+  cursor: pointer;
+}
+
+#back{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  top: 470px;
+  margin-left: -53px;
+}
+
+#back:hover{
+  cursor: pointer;
+}
+
+#back:active{
+  opacity: 1;
+}
+
+#next{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  top: 469px;
+  margin-left: -1px;
+}
+
+#next:hover{
+  cursor: pointer;
+}
+
+#next:active{
+  opacity: 1;
+}
+
+#minus{
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+  top: 426px;
+  margin-left: 150px;
+}
+
+#minus:hover{
+  cursor: pointer;
+}
+
+#minus:active{
+  opacity: 1;
+}
+
+#plus{
+  position: absolute;
+  opacity: 0;
+  z-index: 3;
+  top: 426px;
+  margin-left: 48px;
+}
+
+#plus:hover{
+  cursor: pointer;
+}
+
+#plus:active{
+  opacity: 1;
+}
+
 
 /* space */
 
@@ -203,10 +332,6 @@ h4{
 
 #space:hover{
     cursor: url("../media/alien.png") 20 20, auto;
-}
-
-.space{
-  margin-top: -2%;
 }
 
 .gifspace{
@@ -296,6 +421,19 @@ h4{
     height: auto;
 }
 
+/* secte */
+
+#secte{
+    background-image: url("../media/misc007.jpg");
+    height: auto;
+
+}
+
+#arrow-blu{
+  width: 30px;
+  margin-left: -30px;
+}
+
 /* gothic */
 
 #horror{
@@ -324,32 +462,6 @@ h4{
   height: 60px;
 }
 
-/* lexique */
-
-#lex{
-    background-image: url("../media/512_11.jpg");
-    height: auto;
-}
-
-#abecedaire{
-  font-family: 'Creepster', cursive;
-  font-size: 30px;
-  color: red;
-  padding: 10px;
-  
-}
-
-#mot{
-  font-family: 'Creepster', cursive;
-  font-size: 25px;
-  color: black;
-  line-height: 30px;
-}
-
-#definition{
-  color: black;
-  margin-top: -25px;
-}
 
 /* ressources */
 
@@ -411,19 +523,6 @@ p a{
 
 p a:hover{
   color: white;
-}
-
-/* fans */
-
-#fans{
-    background-image: url("../media/misc007.jpg");
-    height: auto;
-
-}
-
-#arrow-blu{
-  width: 30px;
-  margin-left: -30px;
 }
 
 /* galerie */
@@ -722,124 +821,4 @@ body.modal-open {
   color: lime;
   font-size: 50px;
   text-align: center;
-}
-
-/*media player*/
-
-#musicroom{
-    background-image: url("../media/1.jpg");
-}
-
-.titre2{
-  width: 450px;
-  margin: 25px;
-}
-
-#mediaback{
-  position: absolute;
-  z-index: 1;
-  width: 500px;
-  margin-left: -250px;
-  margin-top: 14px;
- }
-
-#player{
-  position: absolute;
-  margin-left: -200px;
-  margin-top: 20px;
-  z-index: 2;
- }
-
- /*#volume{
-  position: absolute;
-  margin-left: -400px;
-  margin-top: 20px;
-  z-index: 3;
- }*/
-
-#mediamarquee {
-  position: absolute;
-  top: 423px;
-  z-index: 3;
-  width: 160px;
-  margin-left: -85px;
-  font-family: 'VT323', monospace;
-  font-size: 12px;
-}
-
-#mediabutton{
-  position: absolute;
-  z-index: 3;
-  opacity: 0;
-  top: 460px;
-  margin-left: -143px;
-  outline: none;
-}
-
-#mediabutton:hover{
-  cursor: pointer;
-}
-
-#back{
-  position: absolute;
-  z-index: 3;
-  opacity: 0;
-  top: 470px;
-  margin-left: -53px;
-}
-
-#back:hover{
-  cursor: pointer;
-}
-
-#back:active{
-  opacity: 1;
-}
-
-#next{
-  position: absolute;
-  z-index: 3;
-  opacity: 0;
-  top: 469px;
-  margin-left: -1px;
-}
-
-#next:hover{
-  cursor: pointer;
-}
-
-#next:active{
-  opacity: 1;
-}
-
-#minus{
-  position: absolute;
-  opacity: 0;
-  z-index: 2;
-  top: 426px;
-  margin-left: 150px;
-}
-
-#minus:hover{
-  cursor: pointer;
-}
-
-#minus:active{
-  opacity: 1;
-}
-
-#plus{
-  position: absolute;
-  opacity: 0;
-  z-index: 3;
-  top: 426px;
-  margin-left: 48px;
-}
-
-#plus:hover{
-  cursor: pointer;
-}
-
-#plus:active{
-  opacity: 1;
 }

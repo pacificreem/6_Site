@@ -49,6 +49,7 @@ var isplaying = false;
 var tracklist = new Array ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11');
 
 window.onload=function(){
+	var widget = document.getElementById("widget");
 	var player = document.getElementById("player");
 	var background = document.getElementById("mediaback");
 	var button = document.getElementById("mediabutton");
@@ -89,7 +90,7 @@ window.onload=function(){
 	    background.style.opacity = '0';
 	    marquee.style.fontSize = '7.5px';
 	    marquee.style.width = '95px';
-	    marquee.style.top = '447.4px';
+	    marquee.style.top = '447.7px';
 	    marquee.style.marginLeft = '-64px';
 	  }
 	});
