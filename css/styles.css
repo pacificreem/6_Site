@@ -436,11 +436,54 @@ h4{
 
 /* gothic */
 
-#horror{
-    background-image: url("../media/gothic1.jpg");
-    height: 150vh;
+#castle{
+    background-image: url("../media/gothbg1.jpg");
 }
 
+#torture{
+    background-image: url("../media/gothbg2.png");
+}
+
+.headergothic1{
+  width: 100%;
+  height: 20px;
+  background-image: url("../media/gothbar1.gif");
+  z-index: 1;
+  transform: translateX(5px);
+
+}
+
+.headergothic2{
+  width: 100%;
+  height: 20px;
+  background-image: url("../media/gothbar2.gif");
+  z-index: 1;
+  transform: translateX(5px);
+}
+
+.sidenavleft{
+  position: absolute;
+  width: 90px;
+  height: 100%;
+  background-image: url("../media/gothleft.gif");
+  float: left;
+  top: 0;
+  left: 5px;
+  height: 100%;
+  z-index: 2;
+}
+
+.sidenavright{
+  position: absolute;
+  width: 90px;
+  height: 100%;
+  background-image: url("../media/gothright.gif");
+  float: right;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 2;
+}
 
 
 /* under construction */
