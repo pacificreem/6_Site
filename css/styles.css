@@ -334,37 +334,11 @@ h4{
     cursor: url("../media/alien.png") 20 20, auto;
 }
 
-.gifspace{
-  width: auto;
-  height: 100px;
-  padding: 30px;
-}
-
-.gifspace2{
-  width: auto;
-  height: 150px;
-  padding: 30px;
-}
-
-.gifspace3{
-  width: auto;
-  height: 60px;
-  padding: 30px;
-}
-
-.header8{
+.headerspace{
   width: 100%;
-  height: 85px;
-  background-image: url("../media/space37.gif");
+  height: 30px;
+  background-image: url("../media/bar.gif");
 }
-
-/* fantasy */
-
-#fantasy{
-    background-image: url("../media/fanta.jpg");
-}
-
-/* martial */
 
 #asiansky{
     background-image: url("../media/ss004.jpg");
@@ -372,11 +346,6 @@ h4{
 
 
 /* racing */
-
-#racing1{
-    background-image: url("../media/1_QHgbg6sxJKWNtExnDly1hA.gif");
-    
-}
 
 #racing2{
     background-image: url("../media/drock029.jpg");
