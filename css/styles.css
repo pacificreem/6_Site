@@ -48,12 +48,43 @@ body{
 
   .main {padding-left: 280px;
   }
+
+  .headergothic1{
+  transform: translateX(5px);
+
+}
+
+.headergothic2{
+  transform: translateX(5px);
+}
+
+.sidenavleft{
+  float: left;
+  top: 0;
+  left: 5px;
+}
+
 }
 
 
 
 @media (max-width: 1024px) {
   .sidenav {display: none;}
+
+    .headergothic1{
+  transform: translateX(0px);
+
+}
+
+.headergothic2{
+  transform: translateX(0px);
+}
+
+.sidenavleft{
+  float: left;
+  top: 0;
+  left: 0;
+}
 
 }
 
@@ -128,7 +159,10 @@ section{
 .separator{
   width: 100%;
   height: auto;
+}
 
+.space {
+    margin-top: -2%;
 }
 
 /* intro */
@@ -390,6 +424,12 @@ h4{
     height: auto;
 }
 
+.gifmondo {
+    width: auto;
+    height: 60px;
+    padding: 30px;
+}
+
 /* secte */
 
 #secte{
@@ -418,7 +458,6 @@ h4{
   height: 20px;
   background-image: url("../media/gothbar1.gif");
   z-index: 1;
-  transform: translateX(5px);
 
 }
 
@@ -427,7 +466,6 @@ h4{
   height: 20px;
   background-image: url("../media/gothbar2.gif");
   z-index: 1;
-  transform: translateX(5px);
 }
 
 .sidenavleft{
@@ -435,9 +473,6 @@ h4{
   width: 90px;
   height: 100%;
   background-image: url("../media/gothleft.gif");
-  float: left;
-  top: 0;
-  left: 5px;
   height: 100%;
   z-index: 2;
 }
