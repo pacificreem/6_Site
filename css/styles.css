@@ -378,17 +378,73 @@ h4{
     background-image: url("../media/ss004.jpg");
 }
 
+/*martial*/
+#martial{
+  background-image: url("../media/ma8.jpg");
+}
+
+#headerma1{
+  width: 100%;
+  height: 45px;
+  background-image: url("../media/ma8.jpg");
+}
+
+#headerma2{
+  width: 100%;
+  height: 140px;
+  background-image: url("../media/ma26.gif");
+}
+
 
 /* racing */
 
 #racing2{
-    background-image: url("../media/drock029.jpg");
+    background-image: url("../media/bgrace4.jpg");
 }
 
-.header6{
-  width: 100%;
-  height: 37px;
-  background-image: url("../media/checkered_3a.gif");
+#table{
+  width: 900px;
+  background-color: #a8a8a8;
+  height: 380px;
+  position: absolute;
+  border: solid 6px #8c8c8c;
+  border-bottom-color: #323232;
+  border-right-color: #323232;
+  top: 120px;
+}
+
+#coleft{
+  width: 280px;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 2px;
+  padding-top: 2px;
+}
+
+#colcenter{
+  width: 650px;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 282px;
+  padding-top: 2px;
+}
+
+#colright{
+  width: 898px;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 652px;
+  padding-top: 2px;
+}
+
+#case{
+  border: solid 1px #323232;
+  border-bottom-color: #8c8c8c;
+  border-right-color: #8c8c8c;
+  margin-bottom: 2px;
+  position: relative;
+  overflow: hidden;
 }
 
 
