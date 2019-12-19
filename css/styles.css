@@ -24,7 +24,6 @@ body{
   background-color: #bfbfbf;  
 }
 
-
 /* sidenav */
 
 @media (min-width: 1024px) {
@@ -364,14 +363,15 @@ h4{
     height: auto;
 }
 
-#space:hover{
-    cursor: url("../media/alien.png") 20 20, auto;
-}
-
 .headerspace{
   width: 100%;
   height: 30px;
   background-image: url("../media/bar.gif");
+}
+
+#skytransition{
+    background-image: url("../media/transky.gif");
+    height: 50px;
 }
 
 #asiansky{
@@ -385,14 +385,94 @@ h4{
 
 #headerma1{
   width: 100%;
-  height: 45px;
-  background-image: url("../media/ma8.jpg");
+  height: 47px;
+  background-image: url("../media/headerma.png");
 }
 
 #headerma2{
   width: 100%;
   height: 140px;
   background-image: url("../media/ma26.gif");
+}
+
+.mySlides {
+  width: 500px;
+  display:none;
+}
+
+.arrow-left{
+  margin-top: -134px;
+  margin-left:-539px;
+  border: 1px solid;
+  border-bottom-color: #784d00;
+  border-right-color: #784d00;
+  border-left-color: #facc00;
+  border-top-color: #facc00;
+  background-color: #d38800;
+  height: 25px;
+  width: 34px;
+  text-align: center;
+}
+.arrow-right{
+  margin-top: -25px;
+  margin-right:-538px;
+  border: 1px solid;
+  border-bottom-color: #784d00;
+  border-right-color: #784d00;
+  border-left-color: #facc00;
+  border-top-color: #facc00;
+  background-color: #d38800;
+  height: 25px;
+  width: 34px;
+  text-align: center;
+}
+
+.arrow{
+  font-size: 1em;
+  color: #d38800;
+  text-shadow: -1px -1px 1px #784d00, 1px 1px 1px #facc00;
+  animation-name: color_change;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color_change {
+  0% {
+    color: #d38800;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: #d38800;
+  }
+}
+
+
+.arrow:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.jigtitle{
+  border: 1px solid;
+  border-bottom-color: #784d00;
+  border-right-color: #784d00;
+  border-left-color: #facc00;
+  border-top-color: #facc00;
+  background-color: #d38800;
+  height: 25px;
+  width: 88px;
+  text-align: center;
+  margin-top: -134px;
+}
+
+.jigtitle p{
+  font-size: 1em;
+  color: #d38800;
+  text-shadow: -1px -1px 1px #784d00, 1px 1px 1px #facc00;
+  text-decoration: none;
+  margin-top: 4.5px;
 }
 
 
@@ -450,9 +530,31 @@ h4{
 
 /* porn */
 
-#porn{
+#hot{
     background-image: url("../media/cloth035.jpg");
     height: 50vh;
+}
+
+#jigoku > div {
+  
+  width: 250px;
+  margin: 50px;
+  text-align: center;
+  color: tomato;
+}
+
+.jigscene{
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 
+  inset 0px 0px 0.5px 1px white,
+  inset 0px 0px 1.25px 3px pink,
+  inset 0px 0px 3px 6px red,
+  0px 0px 0.5px 1px white, 
+  0px 0px 1.25px 3px pink,
+  0px 0px 3px 6px red;
+  width: 100%;
+  height: auto;
 }
 
 /* peplum */
