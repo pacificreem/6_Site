@@ -484,7 +484,7 @@ h4{
 
 #table{
   width: 900px;
-  background-color: #a8a8a8;
+  /*background-color: #a8a8a8;*/
   height: 380px;
   position: absolute;
   border: solid 6px #8c8c8c;
