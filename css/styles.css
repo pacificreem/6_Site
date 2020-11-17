@@ -730,6 +730,15 @@ p a:hover{
   color: white;
 }
 
+#sect{
+  color: lime;
+  text-decoration: none;
+}
+
+#sect:hover{
+  color: white;
+}
+
 /* galerie */
 
 #gal{
@@ -787,6 +796,12 @@ h3{
   margin-top: -90px;
 }
 
+.creds4{
+  width: auto;
+  height: 60px;
+  padding: 5px;
+}
+
 #credits p{
   color: white;
 }
@@ -836,6 +851,13 @@ h3{
 }
 
 /* modal */
+
+@-moz-document url-prefix() {
+  #modeliframe{
+    width: 800px;
+    height: 600px;
+  }
+}
 
 #myModal{
   display: none;
@@ -943,7 +965,16 @@ body.modal-open {
 #submit a:hover{
   color: white;
   cursor: pointer;
+}
 
+.btn{
+  color: orangered;
+  text-decoration: underline;
+}
+
+.btn:hover{
+  color: white;
+  cursor: pointer;
 }
 
 #notesprec{
@@ -962,6 +993,46 @@ body.modal-open {
   overflow-x: hidden;
   flex: 1;
   background-image: url("../media/drock003.jpg");
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.fiche2 {
+  width: 100%;
+  overflow-x: hidden;
+  flex: 1;
+  background-image: url("../media/ends5.jpg");
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.fiche3 {
+  width: 100%;
+  overflow-x: hidden;
+  flex: 1;
+  background-image: url("../media/brain.jpg");
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.fiche4 {
+  width: 100%;
+  overflow-x: hidden;
+  flex: 1;
+  background-image: url("../media/silence4.jpg");
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.fiche5 {
+  width: 100%;
+  overflow-x: hidden;
+  flex: 1;
+  background-image: url("../media/eva.jpg");
   height: auto;
   text-align: center;
   align-items: center;
